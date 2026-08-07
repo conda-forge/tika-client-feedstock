@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: tika-client
-  version: "0.11.0"
+  version: "1.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tika_client-${{ version }}.tar.gz
-  sha256: c741caaca08bbd715a8db3fe6f0430a54d075fef3d59a441e8b8d810f58de4f0
+  sha256: 899c2fd08c717d8d590d46d76942103ef972fc37d43eadbfd6772a9961351ced
 
 build:
   number: 0
